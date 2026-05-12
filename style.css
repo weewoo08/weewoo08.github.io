@@ -1,1 +1,27 @@
+.banner-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        z-index: 1000;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .banner-nav {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .main-content {
+        margin-top: 100px;
+        padding: 20px;
+    }
 
+    .links{
+        margin-left: 20px;
+    }
